@@ -1,0 +1,6 @@
+# Detection and motion configuration
+model: yolov8n.pt   # default model name used by ultralytics; will download if not present
+conf_threshold: 0.35
+iou_threshold: 0.45
+motion_history: 5   # number of frames to accumulate for motion smoothing
+motion_area_threshold: 500  # min contour area to consider movement
