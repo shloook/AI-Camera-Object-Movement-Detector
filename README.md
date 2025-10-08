@@ -1,3 +1,5 @@
+<img width="1035" height="278" alt="Screenshot 2025-10-08 at 10 49 16 AM" src="https://github.com/user-attachments/assets/30f65a02-0110-411f-991b-c6d9ae4cb71f" />
+
 # AI Camera Object & Movement Detector
 
 A simple AI-based project that uses the system camera to:
@@ -37,4 +39,5 @@ A simple AI-based project that uses the system camera to:
 
 **Notes**
 - This project expects internet access on first run to allow `ultralytics` to fetch a small default model (yolov8n). If you cannot download models, change the detection backend to a local weight file or use OpenCV DNN.
+- The UI is an OpenCV window. Press `q` to quit, `s` to save a snapshot (in `snapshots/`).ight file or use OpenCV DNN.
 - The UI is an OpenCV window. Press `q` to quit, `s` to save a snapshot (in `snapshots/`).
